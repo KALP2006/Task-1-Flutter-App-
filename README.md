@@ -1,6 +1,7 @@
 # Shop App — Flutter
 
 [📥 Download Android APK (app-release.apk)](app-release.apk)
+[💻 Download Windows App (app-release-windows.zip)](app-release-windows.zip)
 
 A clean Flutter shopping app with two screens, search, category filtering, and a simple cart action.
 
