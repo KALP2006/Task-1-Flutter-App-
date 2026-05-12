@@ -39,15 +39,13 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
         centerTitle: true,
         actions: [
           IconButton(
-            icon: Icon(
-              _isFavourite ? Icons.favorite : Icons.favorite_border,
-              color: _isFavourite
-                  ? const Color(0xFFD4537E)
-                  : const Color(0xFF1A1A1A),
-            ),
-            onPressed: () => setState(() => _isFavourite = !_isFavourite),
+            icon: const Icon(Icons.favorite_border),
+            onPressed: () {
+              setState(() {
+                _isFavourite = !_isFavourite;
+              });
+            },
           ),
-          const SizedBox(width: 4),
         ],
       ),
       body: SingleChildScrollView(
@@ -252,15 +250,15 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
             Padding(
               padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
               child: Row(
-                children: const [
-                  _SpecBadge(
+                children: [
+                  const _SpecBadge(
                       icon: Icons.local_shipping_outlined,
                       label: 'Free shipping'),
-                  SizedBox(width: 10),
-                  _SpecBadge(
+                  const SizedBox(width: 10),
+                  const _SpecBadge(
                       icon: Icons.autorenew_outlined, label: '30-day returns'),
-                  SizedBox(width: 10),
-                  _SpecBadge(icon: Icons.verified_outlined, label: 'Authentic'),
+                  const SizedBox(width: 10),
+                  const _SpecBadge(icon: Icons.verified_outlined, label: 'Authentic'),
                 ],
               ),
             ),
