@@ -84,8 +84,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(16),
-                border: Border.all(
-                    color: const Color(0xFFE8E8E4), width: 0.5),
+                border: Border.all(color: const Color(0xFFE8E8E4), width: 0.5),
               ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -150,9 +149,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                   const Padding(
                     padding: EdgeInsets.symmetric(vertical: 16),
                     child: Divider(
-                        height: 1,
-                        thickness: 0.5,
-                        color: Color(0xFFE8E8E4)),
+                        height: 1, thickness: 0.5, color: Color(0xFFE8E8E4)),
                   ),
 
                   // Description
@@ -177,9 +174,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                   const Padding(
                     padding: EdgeInsets.symmetric(vertical: 16),
                     child: Divider(
-                        height: 1,
-                        thickness: 0.5,
-                        color: Color(0xFFE8E8E4)),
+                        height: 1, thickness: 0.5, color: Color(0xFFE8E8E4)),
                   ),
 
                   // Quantity selector
@@ -257,17 +252,15 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
             Padding(
               padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
               child: Row(
-                children: [
+                children: const [
                   _SpecBadge(
                       icon: Icons.local_shipping_outlined,
                       label: 'Free shipping'),
-                  const SizedBox(width: 10),
+                  SizedBox(width: 10),
                   _SpecBadge(
-                      icon: Icons.autorenew_outlined,
-                      label: '30-day returns'),
-                  const SizedBox(width: 10),
-                  _SpecBadge(
-                      icon: Icons.verified_outlined, label: 'Authentic'),
+                      icon: Icons.autorenew_outlined, label: '30-day returns'),
+                  SizedBox(width: 10),
+                  _SpecBadge(icon: Icons.verified_outlined, label: 'Authentic'),
                 ],
               ),
             ),
@@ -276,8 +269,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
           ],
         ),
       ),
-      floatingActionButtonLocation:
-          FloatingActionButtonLocation.centerFloat,
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       floatingActionButton: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 16),
         child: SizedBox(
@@ -358,8 +350,7 @@ class _SpecBadge extends StatelessWidget {
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(12),
-          border:
-              Border.all(color: const Color(0xFFE8E8E4), width: 0.5),
+          border: Border.all(color: const Color(0xFFE8E8E4), width: 0.5),
         ),
         child: Column(
           children: [

@@ -20,7 +20,7 @@ class Product {
   });
 }
 
-final List<Product> sampleProducts = [
+const List<Product> sampleProducts = [
   Product(
     id: 1,
     name: 'Wireless Noise-Cancelling Headphones',
@@ -28,8 +28,7 @@ final List<Product> sampleProducts = [
     price: 2499.00,
     rating: 4.7,
     reviews: 1240,
-    description:
-        'Premium over-ear headphones with active noise cancellation, '
+    description: 'Premium over-ear headphones with active noise cancellation, '
         '30-hour battery life, and crystal-clear audio. Perfect for commuters '
         'and audiophiles who demand the best sound quality.',
     emoji: '🎧',
@@ -41,8 +40,7 @@ final List<Product> sampleProducts = [
     price: 1899.00,
     rating: 4.5,
     reviews: 876,
-    description:
-        'Compact TKL mechanical keyboard with tactile brown switches, '
+    description: 'Compact TKL mechanical keyboard with tactile brown switches, '
         'per-key RGB backlighting, and a durable aluminum frame. '
         'A must-have for programmers and gamers alike.',
     emoji: '⌨️',
@@ -54,8 +52,7 @@ final List<Product> sampleProducts = [
     price: 12999.00,
     rating: 4.8,
     reviews: 543,
-    description:
-        'Fully adjustable ergonomic chair with lumbar support, '
+    description: 'Fully adjustable ergonomic chair with lumbar support, '
         'breathable mesh back, and 4D armrests. Designed for long work '
         'sessions to keep your posture in check and comfort at its peak.',
     emoji: '🪑',
@@ -80,8 +77,7 @@ final List<Product> sampleProducts = [
     price: 3299.00,
     rating: 4.4,
     reviews: 2100,
-    description:
-        'Lightweight running shoes with responsive foam cushioning, '
+    description: 'Lightweight running shoes with responsive foam cushioning, '
         'a breathable knit upper, and a durable rubber outsole. '
         'Engineered for both road runs and light trail adventures.',
     emoji: '👟',
@@ -93,8 +89,7 @@ final List<Product> sampleProducts = [
     price: 1199.00,
     rating: 4.3,
     reviews: 980,
-    description:
-        'Compact 360° speaker with rich bass, IPX7 waterproofing, '
+    description: 'Compact 360° speaker with rich bass, IPX7 waterproofing, '
         'and up to 20 hours of playtime. Take the party anywhere — '
         'beach, camping, or backyard BBQ.',
     emoji: '🔊',
@@ -106,8 +101,7 @@ final List<Product> sampleProducts = [
     price: 449.00,
     rating: 4.9,
     reviews: 670,
-    description:
-        'Set of 4 handcrafted ceramic mugs in earthy tones. '
+    description: 'Set of 4 handcrafted ceramic mugs in earthy tones. '
         'Microwave and dishwasher safe, each with a satisfying 350ml capacity. '
         'A lovely gift or a daily ritual upgrade.',
     emoji: '☕',
